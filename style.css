@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Exo";
+  src: url(../font/Exo-Regular.ttf);
+}
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -22,11 +26,6 @@ a {
 
 img {
   max-width: 100%;
-}
-
-@font-face {
-  font-family: "Exo";
-  src: url(../fonts/Exo/Exo-Regular.ttf);
 }
 
 /*# sourceMappingURL=style.css.map */
