@@ -14,6 +14,7 @@
   box-shadow: -1px -1px 0px rgba(255, 255, 255, 0.2), 1px 1px 10px #000000;
 
   position: relative;
+  user-select: none;
 
   & img {
     position: absolute;

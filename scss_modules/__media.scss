@@ -1,0 +1,49 @@
+@media screen and (hover: hover) {
+  .keyboard__button:not(.guess, .false-guess):hover {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid rgb(70, 114, 125);
+  }
+
+  .modal__play-again-btn:hover {
+    cursor: pointer;
+    background-color: rgba(70, 114, 125, 0.25);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  h1 {
+    text-shadow: none;
+  }
+
+  .hangman__img--wrapper {
+    width: clamp(10rem, 40vw, 18.75rem);
+    height: clamp(10rem, 40vw, 18.75rem);
+  }
+
+  .control {
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    margin: 0;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .modal__wrapper {
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  body {
+    align-items: flex-start;
+  }
+}
